@@ -1,0 +1,40 @@
+{
+
+  "name": "contributionpulse",
+
+  "version": "1.0.0",
+
+  "description": "Track and visualize GitHub contributions",
+
+  "main": "src/index.js",
+
+  "scripts": {
+
+    "start": "node src/index.js",
+
+    "dev": "nodemon src/index.js"
+
+  },
+
+  "dependencies": {
+
+    "@octokit/rest": "^22.0.0",
+
+    "dayjs": "^1.11.18",
+
+    "dotenv": "^17.2.3",
+
+    "express": "^5.1.0",
+
+    "node-fetch": "^3.3.2"
+
+  },
+
+  "devDependencies": {
+
+    "nodemon": "^3.1.10"
+
+  }
+
+}
+
